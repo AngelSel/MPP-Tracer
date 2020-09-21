@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "TracerLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/TracerLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/TracerLibrary.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "TracerLibrary/1.0.0": {
-      "type": "project",
-      "path": "../TracerLibrary/TracerLibrary.csproj",
-      "msbuildProject": "../TracerLibrary/TracerLibrary.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "TracerLibrary >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\User\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\Lab1-Tracer\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\Lab1-Tracer\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\Lab1-Tracer\\ConsoleApp1\\obj\\",
+      "outputPath": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,11 +32,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\Lab1-Tracer\\TracerLibrary\\TracerLibrary.csproj": {
-              "projectPath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\Lab1-Tracer\\TracerLibrary\\TracerLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

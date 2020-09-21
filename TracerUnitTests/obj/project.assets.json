@@ -5721,11 +5721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\Lab1-Tracer\\TracerUnitTests\\TracerUnitTests.csproj",
+      "projectUniqueName": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerUnitTests\\TracerUnitTests.csproj",
       "projectName": "TracerUnitTests",
-      "projectPath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\Lab1-Tracer\\TracerUnitTests\\TracerUnitTests.csproj",
+      "projectPath": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerUnitTests\\TracerUnitTests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\Lab1-Tracer\\TracerUnitTests\\obj\\",
+      "outputPath": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerUnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
