@@ -1,0 +1,9 @@
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\TracerLibrary\bin\Debug\netstandard2.0\TracerLibrary.deps.json
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\TracerLibrary\bin\Debug\netstandard2.0\TracerLibrary.dll
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\TracerLibrary\bin\Debug\netstandard2.0\TracerLibrary.pdb
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\TracerLibrary\obj\Debug\netstandard2.0\TracerLibrary.csprojAssemblyReference.cache
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\TracerLibrary\obj\Debug\netstandard2.0\TracerLibrary.AssemblyInfoInputs.cache
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\TracerLibrary\obj\Debug\netstandard2.0\TracerLibrary.AssemblyInfo.cs
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\TracerLibrary\obj\Debug\netstandard2.0\TracerLibrary.csproj.CoreCompileInputs.cache
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\TracerLibrary\obj\Debug\netstandard2.0\TracerLibrary.dll
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\TracerLibrary\obj\Debug\netstandard2.0\TracerLibrary.pdb

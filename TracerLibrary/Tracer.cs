@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Reflection;
-using System.Text;
 using System.Threading;
 
 namespace TracerLibrary
 {
-    public class Tracer:ITracer
+    public class Tracer : ITracer
     {
         private TraceResult traceResult;
 
@@ -15,9 +12,10 @@ namespace TracerLibrary
         {
             traceResult = new TraceResult();
         }
+
         public void StartTrace()
         {
-            MethodBase currentMethod = new StackTrace().GetFrame(0).GetMethod();
+            MethodBase currentMethod = new StackTrace().GetFrame(1).GetMethod();
             traceResult.StartTrace(Thread.CurrentThread.ManagedThreadId, currentMethod);
         }
         public void StopTrace()

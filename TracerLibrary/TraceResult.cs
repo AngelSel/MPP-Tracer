@@ -2,13 +2,26 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Reflection;
-using System.Text;
+using System.Runtime.Serialization;
 
 namespace TracerLibrary
 {
+    [Serializable]
+    [DataContract]
     public class TraceResult
     {
         private ConcurrentDictionary<int, ThreadStructure> listOfThreads;
+        [DataMember(Name = "threads")]
+        public List<ThreadStructure> threads
+        {
+            get
+            {
+                SortedDictionary<int, ThreadStructure> sorteddictionary = new SortedDictionary<int, ThreadStructure>(listOfThreads);
+                return new List<ThreadStructure>(sorteddictionary.Values);
+            }
+            private set { }
+        }
+      
         public TraceResult()
         {
             listOfThreads = new ConcurrentDictionary<int, ThreadStructure>();
@@ -23,10 +36,11 @@ namespace TracerLibrary
         public void StopTrace(int threadID)
         {
             ThreadStructure currentTreadInfo;
-            if(listOfThreads.TryGetValue(threadID, out currentTreadInfo))
+            if (!listOfThreads.TryGetValue(threadID, out currentTreadInfo))
             {
-                currentTreadInfo.StopThreadTrace();
+                throw new ArgumentException("Invalid thread ID");
             }
+            currentTreadInfo.StopThreadTrace();
         }
     }
 }

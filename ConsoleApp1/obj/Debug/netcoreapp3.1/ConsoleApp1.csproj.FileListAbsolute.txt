@@ -1,0 +1,16 @@
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\bin\Debug\netcoreapp3.1\TracerLibrary.dll
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\bin\Debug\netcoreapp3.1\TracerLibrary.pdb
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CopyComplete
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\Ангелина\5 сем\5 сем\СПП\Lab1-MPP\MPP-Tracer\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
