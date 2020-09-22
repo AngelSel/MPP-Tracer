@@ -1634,6 +1634,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "TracerLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TracerLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TracerLibrary.dll": {}
+        }
       }
     }
   },
@@ -5705,6 +5715,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "TracerLibrary/1.0.0": {
+      "type": "project",
+      "path": "../TracerLibrary/TracerLibrary.csproj",
+      "msbuildProject": "../TracerLibrary/TracerLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5712,6 +5727,7 @@
       "MSTest.TestAdapter >= 2.1.0",
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
+      "TracerLibrary >= 1.0.0",
       "coverlet.collector >= 1.2.0"
     ]
   },
@@ -5721,11 +5737,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerUnitTests\\TracerUnitTests.csproj",
+      "projectUniqueName": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerUnitTests\\TracerUnitTests.csproj",
       "projectName": "TracerUnitTests",
-      "projectPath": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerUnitTests\\TracerUnitTests.csproj",
+      "projectPath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerUnitTests\\TracerUnitTests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerUnitTests\\obj\\",
+      "outputPath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerUnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5740,7 +5756,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\TracerLibrary.csproj": {
+              "projectPath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\TracerLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UHhUL2jxZkQ0LHXR1rG1rZy+sCAU63Td3MjWCHnn2E1SKp+KZBq93xbzkMSKOnamJUtOCfkNwJd/0KC5oxJQYQ==",
+  "dgSpecHash": "avZ1B/T/CklW+pjYTQjB8mRHyiGOqmxMDFdCDixVTcjM+cv9HV5venEGLNwsS2FEma6+mDJOAMUPe8qNHCAmfg==",
   "success": true,
-  "projectFilePath": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\TracerLibrary.csproj",
+  "projectFilePath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\TracerLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

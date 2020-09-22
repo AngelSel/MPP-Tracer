@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\ConsoleApp1\\obj\\",
+        "outputPath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\TracerLibrary.csproj": {
-                "projectPath": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\TracerLibrary.csproj"
+              "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\TracerLibrary.csproj": {
+                "projectPath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\TracerLibrary.csproj"
               }
             }
           }
@@ -60,14 +60,14 @@
         }
       }
     },
-    "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\TracerLibrary.csproj": {
+    "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\TracerLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\TracerLibrary.csproj",
+        "projectUniqueName": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\TracerLibrary.csproj",
         "projectName": "TracerLibrary",
-        "projectPath": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\TracerLibrary.csproj",
+        "projectPath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\TracerLibrary.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\obj\\",
+        "outputPath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

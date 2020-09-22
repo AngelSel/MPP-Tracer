@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vTYM12yJSrzpTDnRo7wWvS5uOOvQ68Y+VwXKUDRLXUww/q+cKui33LBUIj2LDdn7rjmSNwBl7GC/QULZXzVreg==",
+  "dgSpecHash": "cxGUCxlrWmQ40I+PdXRmAquEy41Kft97BCPgOMuxzWO4CBbBmUM2L6GKPvUVkhFJan+Er4qQAX0AQ6y10HLW5A==",
   "success": true,
-  "projectFilePath": "d:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerUnitTests\\TracerUnitTests.csproj",
+  "projectFilePath": "D:\\Ангелина\\5 сем\\5 сем\\СПП\\Lab1-MPP\\MPP-Tracer\\TracerUnitTests\\TracerUnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
