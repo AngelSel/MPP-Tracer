@@ -8,7 +8,5 @@ namespace TracerLibrary
         
         TraceResult GetTraceResult();
 
-
-
     }
 }

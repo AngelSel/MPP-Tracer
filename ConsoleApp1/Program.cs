@@ -25,9 +25,18 @@ namespace ConsoleApp1
                 thread.Join();
 
             TraceResult traceResult = tracerTest.GetTraceResult();
+
             ITraceWriter writer = new ConsoleOutput();
             writer.Write(traceResult, new JSONSerializer());
             writer.Write(traceResult, new XMLSerializer());
+
+            ITraceWriter fileOutputJSON = new FileOutput("jsonRez.json");
+            fileOutputJSON.Write(traceResult, new JSONSerializer());
+
+            ITraceWriter fileOutputXML = new FileOutput("XMLrez.xml");
+            fileOutputXML.Write(traceResult, new XMLSerializer());
+
+
 
         }
        public static  void CallMethod()
