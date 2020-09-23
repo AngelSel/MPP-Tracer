@@ -1,8 +1,9 @@
 ﻿using System;
 using System.IO;
-using TracerLibrary.Interfaces;
+using ConsoleApp1.Interfaces;
+using TracerLibrary;
 
-namespace TracerLibrary
+namespace ConsoleApp1
 {
     public class ConsoleOutput: ITraceWriter
     {

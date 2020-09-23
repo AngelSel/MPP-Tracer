@@ -1,9 +1,10 @@
 ﻿using System.IO;
 using System.Runtime.Serialization;
 using System.Xml;
-using TracerLibrary.Interfaces;
+using ConsoleApp1.Interfaces;
+using TracerLibrary;
 
-namespace TracerLibrary
+namespace ConsoleApp1
 {
     public class XMLSerializer:ISerializer
     {

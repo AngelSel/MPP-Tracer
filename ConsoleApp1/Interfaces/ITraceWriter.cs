@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using TracerLibrary;
 
-namespace TracerLibrary.Interfaces
+namespace ConsoleApp1.Interfaces
 {
     public interface ITraceWriter
     {
