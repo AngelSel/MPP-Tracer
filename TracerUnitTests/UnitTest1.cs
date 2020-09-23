@@ -45,6 +45,26 @@ namespace TracerUnitTests
 
         }
 
+        public void MultipleThreads()
+        {
+            tracer.StartTrace();
+            List<Thread> threadsInMethod = new List<Thread>();
+            for (int i = 0; i < ThreadsCount; i++)
+            {
+                Thread thread = new Thread(CallMethod);
+                threadsInMethod.Add(thread);
+                thread.Start();
+            }
+            foreach (var thread in threadsInMethod)
+            {
+                thread.Join();
+            }
+            CallMethod();
+            Thread.Sleep(sleepMiliseconds);
+            tracer.StopTrace();
+
+        }
+
         //ѕроверка структуры ThreadStructure и работы класса TraceResult
         [TestMethod]
         public void ThreadCount()
@@ -135,6 +155,46 @@ namespace TracerUnitTests
 
         }
 
+        // ѕроверка работы программы при данных: несколько вложенных методов в разных потоках
+        [TestMethod]
+        public void NestedThreads()
+        {
+            tracer = new Tracer();
+            int singleMethods = 0;
+            int nestedMethods = 0;
+            List<Thread> testThreads = new List<Thread>();
+            for(int i = 0; i < ThreadsCount; i++)
+            {
+                Thread thread = new Thread(MultipleThreads);
+                testThreads.Add(thread);
+                thread.Start();
+
+            }
+            foreach (var thread in testThreads)
+                thread.Join();
+
+            TraceResult traceResult = tracer.GetTraceResult();
+            Assert.AreEqual(ThreadsCount * ThreadsCount + ThreadsCount, traceResult.threads.Count);
+          
+            for (int i = 0; i < traceResult.threads.Count; i++)
+            {
+                Assert.AreEqual(1, traceResult.threads[i].Methods.Count);
+                Assert.AreEqual(nameof(UnitTest1), traceResult.threads[i].Methods[0].ClassName);
+                if (traceResult.threads[i].Methods[0].InnerMethods.Count != 0)
+                {
+                    nestedMethods++;
+                    Assert.AreEqual(nameof(UnitTest1), traceResult.threads[i].Methods[0].ClassName);
+                    Assert.AreEqual(nameof(CallMethod), traceResult.threads[i].Methods[0].InnerMethods[0].MethodName);
+                }
+                else
+                    singleMethods++;
+            }
+            Assert.AreEqual(ThreadsCount, nestedMethods);
+            Assert.AreEqual(ThreadsCount * ThreadsCount, singleMethods);
+        }
+
 
     }
+
+    
 }
